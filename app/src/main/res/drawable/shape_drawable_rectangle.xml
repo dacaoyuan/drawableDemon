@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="true"
+    android:shape="rectangle"
+    android:useLevel="false">
+
+    <!--android:radius	int	统一设置圆角半径
+        android:bottomLeftRadius	int	设置左下角圆角半径
+        android:bottomRightRadius	int	设置右下角圆角半径
+        android:topLeftRadius	int	设置左上角圆角半径
+        android:topRightRadius	int	设置右上角圆角半径-->
+
+    <!--corners 圆角-->
+    <corners
+        android:bottomLeftRadius="3dp"
+        android:radius="5dp" />
+    <solid android:color="#8c2828" />
+
+    <!--stroke 边框-->
+    <stroke
+        android:width="1dp"
+        android:color="#ccbebe"
+        android:dashGap="2dp"
+        android:dashWidth="3dp" />
+    <!-- 和dashWidth一起设置，若不设置则为实线-->
+
+    <size
+        android:width="30dp"
+        android:height="30dp" />
+    <!--size 大小设置背景大小，width和height俩属性。一般来说这个值不是shape的最终显示大小，
+    因为shape作为背景时会根据View的大小而填充其背景，因此Shape的大小很多时候是View的大小决定的。-->
+
+</shape>

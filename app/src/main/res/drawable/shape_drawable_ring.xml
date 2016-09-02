@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither="true"
+    android:innerRadius="50dp"
+    android:shape="ring"
+    android:thickness="10dp"
+    android:useLevel="false">
+    <!--android:innerRadius	int	圆环内圆的半径-->
+    <!--android:thickness	int	圆环的厚度-->
+    <!--android:useLevel	boolean	设置等级，配合LevelListDrawable使用时设置-->
+    <!--android:dither	boolean	是否抖动-->
+    <!--android:tint	color	给图片着色-->
+
+
+    <!--solid 填充色-->
+    <solid android:color="#8c2828"></solid>
+
+</shape>

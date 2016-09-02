@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:useLevel="false">
+    <!--android:useLevel	boolean	设置等级，配合LevelListDrawable使用时设置-->
+    <!--android:tint	color	给图片着色-->
+
+
+   <!-- android:angle	int	设置旋转的角度，45的倍数
+        android:centerColor	color	中间的颜色
+        android:centerX	int	渐变中心点的横坐标
+        android:centerY	int	渐变的中心点的纵坐标
+        android:gradientRadius	int	渐变的梯度，当android:type=”radial”有效
+        android:type	linear 、 radial 、 sweep	渐变类别，linear(线性)为默认值，radial（径内渐变），sweep（扫描渐变）
+        android:startColor	color	颜色变化的起始值
+        android:endColor	color	颜色变化的结束值
+        android:useLevel	boolean	设置等级，配合LevelListDrawable使用时设置-->
+
+
+    <!--solid 填充色-->
+    <solid android:color="#8c2828"></solid>
+
+
+    <!--gradient 渐变色-->
+    <gradient
+        android:endColor="#b66fc6"
+        android:startColor="#a64533"
+        android:type="linear" />
+
+    <size
+        android:width="30dp"
+        android:height="30dp" />
+
+</shape>
