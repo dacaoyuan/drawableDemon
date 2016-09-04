@@ -8,6 +8,11 @@
 
 解决方法：给这个 view 添加点击事件的监听。
 
+android:state_selected是选中
+android:state_focused是获得焦点
+android:state_pressed是点击
+android:state_enabled是设置是否响应事件,指所有事件
+
 
 
 
